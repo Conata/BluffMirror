@@ -732,3 +732,121 @@ AIが嘘をつくのは、**自分の感情や期待についてだけ**です�
 ## ライセンス
 
 本プロジェクトはMITライセンスの下で公開されています。詳細は [LICENSE](LICENSE) ファイルをご覧ください。
+
+---
+
+## Third-Party Assets & Licenses
+
+This project includes the following third-party assets and libraries:
+
+### Libraries & SDKs
+
+#### DOTween
+- **Copyright**: (c) 2014-2018 Daniele Giardini - Demigiant
+- **License**: [DOTween License](http://dotween.demigiant.com/license.php)
+- **Usage**: Animation library (free version, used unmodified)
+- **Location**: `Baba/Assets/Plugins/Demigiant/DOTween/`
+
+#### Live2D Cubism SDK
+- **Version**: 5-r.5-beta.3
+- **License**: [Live2D Open Software License](https://www.live2d.com/en/terms/live2d-open-software-license-agreement/)
+- **Usage**: Character animation and rendering
+- **Location**: `Baba/Assets/Live2D/Cubism/`
+
+#### FERPlus-8 ONNX Model
+- **Copyright**: Microsoft Corporation
+- **License**: MIT License
+- **Source**: [microsoft/FERPlus](https://github.com/microsoft/FERPlus)
+- **Usage**: Facial expression recognition (8-class classification)
+- **Location**: `Baba/Assets/StreamingAssets/Models/emotion-ferplus-8.onnx`
+
+### Unity Packages
+
+The following Unity packages are used in this project:
+- Unity 6 LTS (6000.0.x)
+- Universal Render Pipeline (URP) 17.0.3
+- Cinemachine 3.1.5
+- Unity Sentis 2.1.3
+- Newtonsoft.Json 3.2.1
+- Input System 1.11.2
+- Timeline 1.8.7
+- AI Navigation 2.0.4
+- Other standard Unity modules
+
+All Unity packages are subject to their respective Unity licenses.
+
+### External APIs
+
+This project uses the following external APIs:
+- **Claude API** (Anthropic) - LLM, Vision API, personality generation
+- **OpenAI API** - LLM, TTS (text-to-speech)
+- **ElevenLabs API** (Optional) - High-quality emotional TTS
+
+API usage is subject to each provider's terms of service.
+
+### AI-Generated Assets
+
+The following assets were generated using AI tools during the hackathon:
+- Music files (`darkmode.mp3`, `DeepMode.mp3`, `breath.mp3`)
+- Sound effects (card interaction sounds)
+- 3D models (TVHead character model)
+- Card textures (`back.png`, `backred.png`)
+
+---
+
+## サードパーティライセンス
+
+本プロジェクトは以下のサードパーティライブラリ・アセットを使用しています：
+
+### ライブラリ・SDK
+
+#### DOTween
+- **著作権**: (c) 2014-2018 Daniele Giardini - Demigiant
+- **ライセンス**: [DOTween License](http://dotween.demigiant.com/license.php)
+- **用途**: アニメーションライブラリ（無料版、未修正で使用）
+- **場所**: `Baba/Assets/Plugins/Demigiant/DOTween/`
+
+#### Live2D Cubism SDK
+- **バージョン**: 5-r.5-beta.3
+- **ライセンス**: [Live2D Open Software License](https://www.live2d.com/ja/terms/live2d-open-software-license-agreement/)
+- **用途**: キャラクターアニメーション・レンダリング
+- **場所**: `Baba/Assets/Live2D/Cubism/`
+
+#### FERPlus-8 ONNX モデル
+- **著作権**: Microsoft Corporation
+- **ライセンス**: MIT License
+- **ソース**: [microsoft/FERPlus](https://github.com/microsoft/FERPlus)
+- **用途**: 表情認識（8クラス分類）
+- **場所**: `Baba/Assets/StreamingAssets/Models/emotion-ferplus-8.onnx`
+
+### Unity パッケージ
+
+以下のUnityパッケージを使用しています：
+- Unity 6 LTS (6000.0.x)
+- Universal Render Pipeline (URP) 17.0.3
+- Cinemachine 3.1.5
+- Unity Sentis 2.1.3
+- Newtonsoft.Json 3.2.1
+- Input System 1.11.2
+- Timeline 1.8.7
+- AI Navigation 2.0.4
+- その他の標準Unityモジュール
+
+全てのUnityパッケージは各々のUnityライセンスに準拠しています。
+
+### 外部API
+
+本プロジェクトは以下の外部APIを使用しています：
+- **Claude API** (Anthropic) - LLM、Vision API、性格生成
+- **OpenAI API** - LLM、TTS（音声合成）
+- **ElevenLabs API**（オプション） - 高品質感情表現TTS
+
+API使用は各プロバイダーの利用規約に準拠しています。
+
+### AI生成アセット
+
+以下のアセットはハッカソン期間中にAIツールを使用して生成されました：
+- 音楽ファイル（`darkmode.mp3`, `DeepMode.mp3`, `breath.mp3`）
+- 効果音（カード操作音など）
+- 3Dモデル（TVHeadキャラクターモデル）
+- カードテクスチャ（`back.png`, `backred.png`）
