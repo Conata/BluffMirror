@@ -105,3 +105,4 @@ venv/
 .env.local
 .env.*.local
 .git_backup_*
+/Baba/Assets/Live2D/Cubism/Samples
