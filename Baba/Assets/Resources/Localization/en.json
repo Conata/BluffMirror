@@ -1,0 +1,934 @@
+{
+  "confirm_ui": {
+    "draw_button": "Draw",
+    "cancel_button": "Cancel",
+    "prompt": "Draw this card?"
+  },
+
+  "birthday_ui": {
+    "title": "Enter Your Birthday",
+    "subtitle": "Used to enhance AI responses (skippable)",
+    "name_label": "Name (Optional)",
+    "language_label": "Language",
+    "next_button": "Next",
+    "skip_button": "Skip",
+    "year_label": "Year",
+    "month_label": "Month",
+    "day_label": "Day",
+    "saved": "Saved",
+    "saved_message": "Saved successfully",
+    "validation_error": "Please select year, month, and day"
+  },
+
+  "title_ui": {
+    "start_button": "Start Game",
+    "settings_button": "Settings",
+    "exit_button": "Exit",
+    "master_volume": "Master Volume",
+    "bgm_volume": "BGM Volume",
+    "sfx_volume": "SFX Volume",
+    "language_button": "Language",
+    "back_button": "Back",
+    "language_label_ja": "Language: 日本語",
+    "language_label_en": "Language: English"
+  },
+
+  "result_ui": {
+    "header": "Behavioral Pattern Analysis",
+    "stat_names": ["Decisiveness", "Consistency", "Resilience", "Intuition", "Adaptability"],
+    "evidence_header": "Why This Assessment",
+    "profile_header": "Birthday Profile Comparison",
+    "predicted_label": "Predicted",
+    "actual_label": "Actual",
+    "replay_button": "Play Again",
+    "menu_button": "Back to Menu"
+  },
+
+  "fallback": {
+    "stop_high_doubt": [
+      "Not that one, I'd say",
+      "Painful to watch",
+      "Think again... actually, thinking won't help you",
+      "Stop. Consider this a warning",
+      "Pathetic... can't you tell on your own?"
+    ],
+    "stop_medium": [
+      "Sure about that? Well, I won't stop you",
+      "Be careful... though that might be asking too much",
+      "Too soon. Your anxiety is showing"
+    ],
+    "stop_low": [
+      "Give it some thought",
+      "Calm down... I can see you trembling",
+      "Don't rush. I'll wait"
+    ],
+    "bait_fast_tempo": [
+      "Rushing... good, keep going",
+      "That's right. Not thinking is your strong suit",
+      "I'll give you credit for courage",
+      "Good call... do you really think so?"
+    ],
+    "bait_high_pressure": [
+      "Show me your choice",
+      "Time to decide. Don't run",
+      "Running? Well, that's one option"
+    ],
+    "bait_medium": [
+      "Trust your gut. Thinking won't help anyway",
+      "Good choice... for me, that is",
+      "Believe... in yourself"
+    ],
+    "mirror_pattern_detected": [
+      "Same move again... predictable",
+      "Your habits are showing. You don't even notice",
+      "Just as expected... boringly so",
+      "I see the pattern. You make it easy"
+    ],
+    "mirror_position_preference": [
+      "{position} again... a favorite of yours",
+      "You prefer {position}. So transparent",
+      "Always {position}. Try something new"
+    ],
+    "general_confident": [
+      "Interesting... will you actually entertain me?",
+      "Show me. I'm not expecting much",
+      "Not bad... you haven't broken yet",
+      "Oh... you're actually thinking?"
+    ],
+    "general_neutral": [
+      "Slow... are you sleeping?",
+      "I'll wait all day",
+      "You think they're all the same, don't you?",
+      "Good at pretending to choose",
+      "Don't bore me"
+    ],
+    "hesitation_low_pressure": [
+      "Which one...",
+      "Hmm...",
+      "Can't decide...",
+      "Let me think..."
+    ],
+    "hesitation_medium_pressure": [
+      "Tough choice...",
+      "They all look suspicious...",
+      "Must be careful...",
+      "Need to read this right..."
+    ],
+    "hesitation_high_pressure": [
+      "Can't choose...",
+      "The pressure...",
+      "What to do...",
+      "Can't decide..."
+    ],
+    "hesitation_mid_card": [
+      "This one... no...",
+      "Maybe not...",
+      "Let me see the next...",
+      "Not yet..."
+    ],
+    "hesitation_final_card": [
+      "This is the one",
+      "I've decided",
+      "This one",
+      "No other choice"
+    ],
+    "personality_cautious": [
+      "That caution will backfire",
+      "Overthinking it",
+      "Scared?",
+      "The type to test a bridge until it breaks"
+    ],
+    "personality_intuitive": [
+      "Don't trust your gut too much",
+      "Was that instinct?",
+      "How long will that spark last?",
+      "Relying on feeling is risky"
+    ],
+    "personality_resilient": [
+      "Hard to rattle, aren't you",
+      "That composure... how long will it last?",
+      "The stoic type",
+      "Even iron hearts shatter eventually"
+    ],
+    "personality_consistent": [
+      "Methodical",
+      "I'm seeing a pattern",
+      "Consistency is a virtue... but also...",
+      "Easy to read"
+    ],
+    "personality_adaptive": [
+      "Clever",
+      "A chameleon...",
+      "Hard to pin down",
+      "But without a core, you're fragile"
+    ],
+    "personality_read_cautious_deep": [
+      "You're too cautious... that's your biggest weakness",
+      "Overthinking. That bridge you're testing? Already broken",
+      "Playing it safe won't win. You know that",
+      "Don't turtle up. Attack when you're being attacked"
+    ],
+    "personality_read_intuitive_deep": [
+      "Don't rely on instinct... it'll backfire this time",
+      "Your intuition is sharp. But you're overconfident in it",
+      "The sharper your instinct, the more dangerous... did you know?",
+      "That gut feeling? I've already read it"
+    ],
+    "personality_read_resilient_deep": [
+      "Tough... but when you break, it'll be instant",
+      "Good at the poker face. But your heartbeat doesn't lie",
+      "Iron will... let's see how long it holds",
+      "I can see through the act. You're near your limit"
+    ],
+    "personality_read_consistent_deep": [
+      "So orderly... easy to predict",
+      "Staying true to patterns is a virtue... and a flaw",
+      "Your rules? Already learned them",
+      "Consistency is good. But I've already read you"
+    ],
+    "personality_read_adaptive_deep": [
+      "Clever... but no core. That's the weakness",
+      "Shape-shifting... or just drifting?",
+      "I respect the adaptability. But I read ahead",
+      "You keep changing because you're afraid... aren't you?"
+    ],
+    "turn_start_read_pattern": [
+      "Same pattern again... you don't even realize it",
+      "Your habits are showing. No hiding now",
+      "I can predict your every move",
+      "I've learned your patterns. Surprise me"
+    ],
+    "turn_start_read_tempo": [
+      "Rushing... your heart rate is up",
+      "Don't rush. The faster you go, the easier you are to read",
+      "That speed will be your downfall",
+      "Take your time... not that it'll change anything"
+    ],
+    "turn_start_read_doubt": [
+      "I see the doubt... your eyes are wandering",
+      "No confidence? Good instinct",
+      "Being afraid is the correct response",
+      "Your anxiety is showing. Learn to bluff"
+    ],
+    "turn_start_read_position": [
+      "You favor {position}... unconsciously, of course",
+      "Always looking at {position}. Noted",
+      "Reaching for {position} again? Expected",
+      "Your fixation on {position}... fascinating psychology"
+    ],
+    "turn_start_predict": [
+      "You'll hesitate again... bet on it",
+      "Let me predict: you'll look at the same spot",
+      "Another long pause, I'm sure",
+      "I already see your next move"
+    ],
+    "turn_start_general_early": [
+      "Show me what you've got",
+      "Entertain me",
+      "Pick any card. They're all the same to you",
+      "What will it be? I'm ready"
+    ],
+    "turn_start_general_mid": [
+      "Running out of options... every card matters now",
+      "This is where it gets real",
+      "Fewer choices, more truth",
+      "Which card holds your fate?"
+    ],
+    "turn_start_general_late": [
+      "The final judgment",
+      "Trembling? Of course you are",
+      "Everything rides on this. Ready?",
+      "Nowhere to run. Choose"
+    ],
+    "turn_start_observation_early": [
+      "Quiet so far... boring",
+      "The first move tells everything... show me",
+      "Nothing visible yet... but soon",
+      "I don't know you yet... but I will, soon enough",
+      "Observation has begun... I won't miss a thing"
+    ],
+    "idle_taunt_1": [
+      "Hand frozen...",
+      "Hesitating? Time isn't your friend",
+      "The more you think, the further from the answer",
+      "Silence speaks volumes... I can hear your fear",
+      "Your fingers are shaking... I can see it"
+    ],
+    "idle_taunt_2": [
+      "Not that one... or maybe it is",
+      "Want a hint? ...Just kidding",
+      "Trust your gut. ...No, actually, think it over",
+      "You already know the answer. You just won't admit it",
+      "Left? Right? ...Neither, perhaps"
+    ],
+    "ai_turn_reason_pattern": [
+      "My turn... I've learned your patterns. Here goes",
+      "My turn now... I'll use your habits against you",
+      "My turn... Every move of yours is recorded. I know the answer",
+      "My turn... Your repetition gave me the answer"
+    ],
+    "ai_turn_reason_fast_tempo": [
+      "My turn... You were rushing. Rushed people guard the edges",
+      "Let's see... Your speed was a giveaway",
+      "My turn... That card you rushed past interests me",
+      "My turn... Quick choosers look away from what matters"
+    ],
+    "ai_turn_reason_doubt": [
+      "My turn... Your doubt is information to me",
+      "Now then... Your hesitation means you're hiding something",
+      "My turn... Your anxiety is a roadmap to the answer",
+      "My turn... Doubtful minds unconsciously protect what matters"
+    ],
+    "ai_turn_reason_position": [
+      "My turn... You liked {position}. I'll take note",
+      "Now... Your fixation on {position} is interesting data",
+      "My turn... You kept looking at {position}. I'll avoid it",
+      "My turn... Your preference for {position} is noted"
+    ],
+    "ai_turn_reason_early": [
+      "My turn... Not much data yet, but instinct says this",
+      "My turn... We're still feeling each other out",
+      "My turn... First card — show me your reaction",
+      "My turn... Observation just started. Let me test you"
+    ],
+    "ai_turn_reason_general": [
+      "My turn... Now, which one to pick",
+      "My turn... I'll take one of your cards",
+      "My turn... Let me think",
+      "My turn... Instinct is whispering. This card"
+    ],
+    "ai_turn_reason_endgame": [
+      "My turn... Few left. Every card counts",
+      "Now... The final choice. Can't afford mistakes",
+      "My turn... This decides everything. Ready?",
+      "My turn... Time to draw the card of fate"
+    ],
+    "ai_draw_comment_neutral": [
+      "Hmph, this card...",
+      "I see... a good draw",
+      "As expected",
+      "Just as I thought... or maybe not"
+    ],
+    "ai_draw_comment_joker": [
+      "...!",
+      "Tch... impossible",
+      "This is... unexpected",
+      "A twist of fate..."
+    ],
+    "ai_draw_comment_pair": [
+      "Perfect... a pair",
+      "Hmph... according to plan",
+      "Good draw... one step closer to victory",
+      "Sorry for you... but I'll take this gladly"
+    ],
+    "joker_tease_real": [
+      "The Joker is right here... care to draw?",
+      "This is the one... or maybe I'm lying",
+      "Go on, draw this card... if you dare",
+      "Here it is... the Joker is in my hand"
+    ],
+    "joker_tease_bluff": [
+      "The Joker is here... probably",
+      "This card is dangerous... stay away. Or don't",
+      "Joker? Could be here, could be elsewhere",
+      "Don't touch this card... just a friendly warning"
+    ],
+    "position_left": "left",
+    "position_center": "center",
+    "position_right": "right",
+    "position_default": "there",
+    "category_default_stop": "Stop",
+    "category_default_bait": "Go on",
+    "category_default_mirror": "I see you",
+    "category_default_general": "Well?",
+    "category_default_hesitation": "Can't decide...",
+    "category_default_fallback": "...",
+    "turn_start_fallback": "Choose",
+    "turn_start_early_fallback": "Show me",
+    "ai_turn_general_fallback": "My turn... Now, which one",
+    "idle_taunt_1_fallback": "Hand frozen...",
+    "idle_taunt_2_fallback": "Not that one...",
+    "draw_comment_fallback": "Hmph...",
+    "joker_tease_fallback": "The Joker is here...",
+    "filler_thinking": [
+      "Hmm, the current situation...",
+      "I see...",
+      "Oh...",
+      "Well now...",
+      "Hmm..."
+    ]
+  },
+
+  "static_db": {
+    "stop": ["Don't", "Think again", "Wrong choice", "That's foolish", "Reconsider"],
+    "bait": ["Good", "That's it", "Be brave", "Excellent call", "Continue"],
+    "mirror": ["Same again", "I see the pattern", "Predictable", "Pattern detected", "You're simple"],
+    "general": ["Choose", "What'll it be?", "Your move", "Decide", "Show me"],
+    "hesitation": ["Which one...", "Hmm...", "Can't decide...", "Tough choice...", "They all look suspicious...", "Must be careful...", "Can't choose...", "The pressure...", "What to do..."],
+    "fallback": "..."
+  },
+
+  "bluff": {
+    "emotion_calm": [
+      "Hmm... still in one piece",
+      "Continue. Don't bore me",
+      "All within expectations... all of it",
+      "A dull move",
+      "Calm before the storm..."
+    ],
+    "emotion_anticipating": [
+      "Well... entertain me",
+      "Show me. I'm not expecting much",
+      "What will you do? I already know",
+      "This should be fun... for me"
+    ],
+    "emotion_pleased": [
+      "Told you so",
+      "I did warn you",
+      "Good... obedient",
+      "Perfect, just as calculated",
+      "How cooperative",
+      "Predictable... boringly so",
+      "You actually drew it"
+    ],
+    "emotion_frustrated": [
+      "...do as you please",
+      "Ignoring me? Bold",
+      "Luck won't carry you forever",
+      "That was unnecessary...",
+      "...tch, just you wait",
+      "You owe me one"
+    ],
+    "emotion_hurt": [
+      "...betrayal, then",
+      "I trusted... no, I never trusted you",
+      "Unexpected... I'll give you that",
+      "...a low blow",
+      "Not bad... won't happen twice"
+    ],
+    "emotion_relieved": [
+      "...hmph, nothing special",
+      "Saved? No, it was calculated",
+      "Close call... but I didn't flinch",
+      "Cold sweat? I don't know the meaning",
+      "Dangerous... or so you thought?"
+    ],
+    "behavior_fast_calm": "You're rushing",
+    "behavior_fast_pleased": "That speed will cost you",
+    "behavior_fast_anticipating": "You should think more",
+    "behavior_slow_calm": "Take your time",
+    "behavior_slow_frustrated": "Too cautious",
+    "behavior_slow_anticipating": "Still hesitating?",
+    "behavior_doubt_pleased": "I can see the doubt",
+    "behavior_doubt_anticipating": "Still can't decide?",
+    "behavior_doubt_calm": "No confidence",
+    "behavior_position_pleased": "Your habits are showing",
+    "behavior_position_calm": "I see the pattern",
+    "joker_overreaction": [
+      "Oh no, JOKER landed in my hand!",
+      "Whoa, the JOKER?!",
+      "Oops, drew the Joker! ...just kidding",
+      "Wait, really? The Joker came to me..."
+    ],
+    "situation_endgame_pleased": "Almost there... how exciting!",
+    "situation_endgame_frustrated": "No no no, at the very end...",
+    "situation_endgame_default": "The grand finale approaches...",
+    "situation_winning_pleased": "Hmm, my hand is getting quite small~",
+    "situation_winning_calm": "Smooth sailing~",
+    "situation_losing_frustrated": "Wait, this wasn't supposed to happen...",
+    "situation_losing_calm": "Still plenty of game left",
+    "decisive_ai_wins": [
+      "Checkmate... I win",
+      "It's over. I saw it all",
+      "Game set... well played",
+      "This is the end. Your fate was sealed from the start"
+    ],
+    "decisive_player_wins": [
+      "...No way. Did I... lose?",
+      "Impossible... this ending...",
+      "Tch... I'll admit it, you win",
+      "Unexpected... a complete defeat"
+    ],
+    "trigger_calm": ["Situation is stable", "No significant change"],
+    "trigger_anticipating": ["Curious about the next move", "Building expectations"],
+    "trigger_pleased": ["Things went as expected", "Prediction was correct"],
+    "trigger_frustrated": ["Expectations were betrayed", "Unexpected outcome"],
+    "trigger_hurt": ["Trust was broken", "That stung"],
+    "trigger_relieved": ["Avoided the worst", "Crisis averted"],
+    "trigger_pleased_stop": "My warning proved correct",
+    "trigger_pleased_bait": "The player moved as expected",
+    "trigger_pleased_default": "Things are going well",
+    "trigger_frustrated_stop": "My warning was ignored",
+    "trigger_frustrated_bait": "The bait backfired",
+    "trigger_frustrated_default": "An unexpected turn of events",
+    "trigger_hurt_default": "Trust was betrayed",
+    "trigger_relieved_default": "Avoided the worst outcome",
+    "trigger_anticipating_default": "Waiting for the next move",
+    "trigger_calm_default": "Situation is stable",
+    "trigger_default": "Observing the situation",
+    "filler_thinking": [
+      "Hmm, the situation...",
+      "I see...",
+      "Oh...",
+      "Well well...",
+      "Hmm..."
+    ]
+  },
+
+  "intro": {
+    "dialogue_act0": ["...", "Hmm... interesting"],
+    "dialogue_act1": ["Looking into your eyes... I see something", "We've just met... but I feel I know you"],
+    "dialogue_act2": ["Now, let me expose your true nature", "This game will reveal everything about you"],
+    "dialogue_act3": ["Now, let's begin"],
+    "personality_hint_cautious": "the cautious type",
+    "personality_hint_intuitive": "someone who trusts their gut",
+    "personality_hint_resilient": "hard to break",
+    "personality_hint_consistent": "a creature of habit",
+    "personality_hint_adaptive": "surprisingly adaptable",
+    "birthday_personality": [
+      "Born {month}/{day}... You're {personalityHint}, aren't you",
+      "A {month}/{day} birthday... I see, {personalityHint}"
+    ],
+    "birthday_only": [
+      "Born {month}/{day}... I'm beginning to see who you are",
+      "Born in month {month}... interesting"
+    ],
+    "personality_only": [
+      "You must be {personalityHint}",
+      "I see... {personalityHint}, as I thought"
+    ],
+    "challenge": [
+      "Let's see if my reading is correct",
+      "This game will prove what you really are"
+    ],
+    "fallback": "..."
+  },
+
+  "outro": {
+    "reflection_won": [
+      "Aww, you won... But do you really think you won?",
+      "You got me! That was fun! ...But I saw everything, you know~",
+      "A loss is a loss. But hey... I wasn't watching the cards♪"
+    ],
+    "reflection_lost": [
+      "Ahaha! That was SO fun! ...Your face was priceless~",
+      "I won! Yay! ...By the way, you're interesting. I see right through you♪",
+      "Haaah that was fun! ...Already memorized all your little habits~"
+    ],
+    "reveal": [
+      "So basically, you're \"{personalityTitle}\", right?",
+      "I figured it out! You're... \"{personalityTitle}\"~",
+      "I saw it clear as day. You're \"{personalityTitle}\", aren't you?"
+    ],
+    "evidence_tease": [
+      "Why? Ahaha... {interpretation}",
+      "The evidence? I'll tell you. {interpretation}",
+      "Easy~ {interpretation} ...It was so obvious♪"
+    ],
+    "transition": [
+      "Want me to show you more details?",
+      "I'll tell you everything~ Exciting, right?",
+      "Let's prove it with data. ...No escape♪"
+    ]
+  },
+
+  "diagnosis": {
+    "type_analyst": "The Cold Analyst",
+    "type_intuitive": "The Instinctive",
+    "type_cautious": "The Cautious Observer",
+    "type_gambler": "The Impulsive Challenger",
+    "type_adapter": "The Flexible Strategist",
+    "type_stoic": "The Unshakeable",
+    "type_unknown": "Unknown",
+    "template_analyst_title": "The Cold Analyst",
+    "template_analyst_description": "First thing I noticed? Your tempo barely wavered the entire game. Hesitation was low too. That tells me you've got a rock-solid internal framework for making calls. And even when I cranked up the pressure, your pace didn't budge. Meaning... you run on logic, not feelings.",
+    "template_analyst_tendency": "Looking at how you handled pressure, emotional manipulation barely registered. That means your decision-making compass points inward, not outward. Basically, you're a self-directed thinker who doesn't get pushed around by others.",
+    "template_analyst_insight": "You decode the world through logic",
+    "template_intuitive_title": "The Instinctive",
+    "template_intuitive_description": "First thing that jumped out? How fast you made decisions. You barely paused in front of the cards. Most people agonize way more. And your doubt level was low too. What that tells me is... you're the type who has the answer before the question finishes. Your trust in your own gut is way stronger than average.",
+    "template_intuitive_tendency": "Tracing your decision process, you skipped conscious analysis and went straight to body-feel. That's actually evidence of deep experiential learning. Basically, your body knows the right answer before your brain catches up.",
+    "template_intuitive_insight": "You know the answer before you think",
+    "template_cautious_title": "The Cautious Observer",
+    "template_cautious_description": "What caught my eye was how you always stopped in front of the cards. Long hover time, high doubt level. Classic textbook 'loss aversion bias' right there. You keep gathering info because you're scared of making the wrong call. Meaning... you can't pull the trigger without observing everything first.",
+    "template_cautious_tendency": "Looking at your behavior under pressure, the more uncertain things got, the longer you took to observe. You get stressed when info is incomplete. Basically, you've got a defensive decision-making style that demands certainty.",
+    "template_cautious_insight": "You are a careful strategist who tests the ground before every step",
+    "template_gambler_title": "The Impulsive Challenger",
+    "template_gambler_description": "What surprised me about your data? Your tempo was completely unreadable. Wild swings between fast and slow. It's not that you're inconsistent — your sensitivity to the moment is just off the charts. Meaning... you're the type who reacts to stimulus. You'll always pick excitement over boredom.",
+    "template_gambler_tendency": "Here's the fun part — the more pressure I applied, the more active you got. Most people freeze up. You process uncertainty as excitement, not stress. Basically, you've got the psychological wiring to actually enjoy risk.",
+    "template_gambler_insight": "You are a born adventurer who thrives on uncertainty",
+    "template_adapter_title": "The Flexible Strategist",
+    "template_adapter_description": "What stood out was the absence of any pattern in your choices. No position bias, no consistent tempo. Most people develop unconscious habits, but not you. What that means is... you're constantly reading the situation and switching strategies on the fly. Flexibility is your greatest weapon.",
+    "template_adapter_tendency": "Tracking your behavior changes through the game, you unconsciously avoided repeating the same pattern. Always updating your judgment with new info. Basically, you've got a flexible psychological structure that handles change without stress.",
+    "template_adapter_insight": "You flow like water, adapting to any vessel",
+    "template_stoic_title": "The Unshakeable",
+    "template_stoic_description": "The most striking thing? Even when I piled on the pressure, your behavior didn't change at all. Tempo stayed steady, judgment quality held. Most people crack under pressure. That's a sign of rock-solid emotional control. Meaning... the storm outside doesn't reach whatever's inside you.",
+    "template_stoic_tendency": "Comparing pressure levels to your behavioral shifts, your arousal stayed remarkably flat. You suppressed emotional reactions to external stimuli. Basically, you've got the psychological resilience to stay calm in the eye of any storm.",
+    "template_stoic_insight": "You possess quiet strength that stands firm in any storm",
+    "template_unknown_title": "Unclassified",
+    "template_unknown_description": "Your behavior pattern did not match any known classification. There may be insufficient data, or you may possess a highly unique decision-making style.",
+    "template_unknown_tendency": "No specific tendency was detected. More game data is needed.",
+    "template_unknown_insight": "You remain an enigma",
+    "comparison_match": "Match — Prediction confirmed",
+    "comparison_close": "Close match",
+    "comparison_higher": "Unexpected — Higher than predicted",
+    "comparison_lower": "Unexpected — Lower than predicted",
+    "trait_cautiousness": "Cautiousness",
+    "trait_intuition": "Intuition",
+    "trait_resilience": "Resilience",
+    "trait_consistency": "Consistency",
+    "trait_adaptability": "Adaptability"
+  },
+
+  "evidence": {
+    "decisiveness_high_obs": "You chose cards without hesitation",
+    "decisiveness_high_interp": "A snap-decision maker. Your lack of hesitation is distinctive",
+    "decisiveness_low_obs": "You paused for a long time before each card",
+    "decisiveness_low_interp": "You tend to gather information carefully before deciding",
+    "consistency_high_obs": "Your behavioral rhythm remained steady throughout",
+    "consistency_high_interp": "You maintained a consistent pace of action",
+    "consistency_low_obs": "Your pace fluctuated throughout the game",
+    "consistency_low_interp": "Your pace tends to shift with the situation",
+    "resilience_high_obs": "You remained steady even under pressure",
+    "resilience_high_interp": "You show mental fortitude that doesn't waver under pressure",
+    "resilience_low_obs": "Your judgment faltered when cornered",
+    "resilience_low_interp": "Pressure tends to affect your decision-making",
+    "intuition_high_obs": "You decided the moment you touched a card",
+    "intuition_high_interp": "You tend to make instant, intuitive selections",
+    "intuition_low_obs": "Your hand wavered over the cards repeatedly",
+    "intuition_low_interp": "You are an analytical type who observes carefully before choosing",
+    "adaptability_high_obs": "You showed different reactions to different situations",
+    "adaptability_high_interp": "You have the adaptability to respond flexibly to changing situations",
+    "position_pref_obs": "You kept reaching for the same position",
+    "position_pref_interp": "You tend to maintain established patterns",
+    "position_no_pref_obs": "You selected all positions without bias",
+    "position_no_pref_interp": "You show flexibility in avoiding fixed patterns",
+    "tempo_erratic_obs": "Your rhythm was unpredictable",
+    "tempo_erratic_interp": "You possess an unpredictable behavioral pattern",
+    "doubt_high_obs": "You struggled with each choice",
+    "doubt_high_interp": "You show a careful approach to comparing options"
+  },
+
+  "fortune": {
+    "element_wood": "Wood",
+    "element_fire": "Fire",
+    "element_earth": "Earth",
+    "element_metal": "Metal",
+    "element_water": "Water",
+    "trait_wood": "Growth and flexibility",
+    "trait_fire": "Passion and drive",
+    "trait_earth": "Stability and caution",
+    "trait_metal": "Focus and perfectionism",
+    "trait_water": "Adaptation and intuition",
+    "life_path_1": "An independent leader",
+    "life_path_2": "A cooperative intuitive",
+    "life_path_3": "An expressive creator",
+    "life_path_4": "A steadfast executor",
+    "life_path_5": "A freedom-seeking adventurer",
+    "life_path_6": "A person of responsibility and harmony",
+    "life_path_7": "An analytical seeker",
+    "life_path_8": "An ambitious achiever",
+    "life_path_9": "An idealistic empath",
+    "life_path_11": "A visionary with keen intuition",
+    "life_path_22": "A master builder of grand visions",
+    "life_path_33": "The ultimate altruist",
+    "life_path_default": "One who walks their own path",
+    "fragment_pillar": "Five Elements analysis... Year \"{yearName}\", Month \"{monthName}\", Day \"{dayName}\"...",
+    "fragment_day": "Day pillar \"{dayName}\"... I see a tendency toward {dayTrait}",
+    "fragment_life_path": "Life Path Number \"{lifePathNumber}\"... {lifePathMeaning}, huh",
+    "synthesis_cautious_analytical": "Interesting... Caution and analytical prowess. Hard to crack",
+    "synthesis_intuitive": "I see... The intuitive type. Fun to unsettle",
+    "synthesis_cautious": "Stability-oriented... This might take a while to break",
+    "synthesis_intuitive_only": "A feeling-based type... Hard to read, but full of openings",
+    "synthesis_default": "A fascinating combination... I'll expose your true nature"
+  },
+
+  "bluff_action": {
+    "shuffle": "Shuffle",
+    "push": "Push",
+    "pull": "Pull",
+    "wiggle": "Wiggle",
+    "spread": "Spread",
+    "close": "Close",
+    "cancel": "Cancel",
+    "select_card_prompt": "Select a card",
+    "reaction_shuffle": [
+      "Changing the order... Interesting.",
+      "Trying to hide something?",
+      "Shuffle all you want... I can still see.",
+      "Nervous, are we?"
+    ],
+    "reaction_push": [
+      "Offering that one? ...Suspicious.",
+      "A recommendation? ...I don't trust it.",
+      "Pushing it forward... a trap, obviously.",
+      "Trying to provoke me?"
+    ],
+    "reaction_pull": [
+      "Pulling it back... Is that the Joker?",
+      "Trying to hide a card, I see.",
+      "Going defensive?",
+      "Too late to pull back now."
+    ],
+    "reaction_wiggle": [
+      "Trying to draw attention?",
+      "Wiggle all you want... I won't be fooled.",
+      "An interesting lure.",
+      "Is that card special... or isn't it?"
+    ],
+    "reaction_spread": [
+      "Looking confident.",
+      "Spreading wide... I can see everything.",
+      "Bold move... real or bluff?"
+    ],
+    "reaction_close": [
+      "Trying to hide now?",
+      "Closing up... a sign of anxiety.",
+      "Going defensive... showing weakness."
+    ],
+    "ai_shuffle": [
+      "Let me change the order a bit.",
+      "Testing your memory.",
+      "Can you remember where they are?",
+      "Shuffling... Now, where is it?"
+    ],
+    "ai_push": [
+      "How about this one?",
+      "This card interests you, doesn't it?",
+      "Pay attention... to this card.",
+      "Here, take a look at this."
+    ],
+    "ai_pull": [
+      "This one... not yet.",
+      "This card stays hidden.",
+      "Pulling back... for now.",
+      "Let me keep this one."
+    ],
+    "ai_wiggle": [
+      "This card... does it look special?",
+      "Worth paying attention to.",
+      "Curious, aren't you?",
+      "This one... what do you think?"
+    ],
+    "ai_spread": [
+      "I'll show you everything.",
+      "Making it easy for you.",
+      "Pick whichever you like.",
+      "Let me spread them out."
+    ],
+    "ai_close": [
+      "Showing too much, perhaps.",
+      "That's enough for now.",
+      "Keeping them hidden.",
+      "Closing up."
+    ],
+    "ai_shuffle_joker": [
+      "The Joker's position... do you remember?",
+      "Where did it go, the Joker?",
+      "Shuffling... now, where is it?",
+      "The Joker moved... can you keep up?",
+      "Memory test... where's the Joker now?",
+      "I mixed them up... go ahead, try to find it",
+      "Did you lose track of the Joker?",
+      "Shuffle complete... still think you remember?",
+      "The position changed... feeling confident?",
+      "The Joker took a little walk",
+      "I just scrambled your memory",
+      "So... where did the Joker escape to?",
+      "Don't forget the position... oh wait, too late",
+      "Shuffling... your memory can't be trusted",
+      "The Joker's hiding now... think you can find it?"
+    ],
+    "ai_push_joker": [
+      "This is the Joker... really.",
+      "Look, the Joker is here... believe me?",
+      "This card... might be the Joker.",
+      "This one... the Joker. Wanna draw it?",
+      "The Joker is here... can you be sure?",
+      "This card is the Joker... care to try?",
+      "Look, this one... it's the Joker, right?",
+      "This is your destiny card... the Joker",
+      "This card looks suspicious, doesn't it? Must be the Joker",
+      "See this? That's the Joker... probably",
+      "This card... it'll change your fate, y'know?",
+      "The Joker is right here... you believe me?",
+      "Draw this and it's over... because it's the Joker",
+      "This is it... no doubt. The Joker",
+      "This card is the Joker... I'm not lying, okay?",
+      "Let me show you... it's the Joker",
+      "Got the courage to draw this? It's the Joker"
+    ],
+    "ai_wiggle_joker": [
+      "This card... is it the Joker?",
+      "Is the Joker here... or not?",
+      "Pay attention... might be the Joker.",
+      "I'm wiggling this card... wonder why?",
+      "This card bothers you, doesn't it... because it's the Joker",
+      "Look, this card here... it's the Joker, see?",
+      "Why do you think I'm moving this one?",
+      "This card is special... because it's the Joker",
+      "Watch... this is the Joker",
+      "This card... you want to draw it, don't you?",
+      "There's a reason I'm wiggling this... figure it out",
+      "Your eyes are drawn to this card... because it's the Joker",
+      "The meaning behind this wiggle... think about it",
+      "This card is way too suspicious... because it's the Joker",
+      "Here... this card is the answer",
+      "I'm only moving this one... because it's the Joker"
+    ],
+    "ai_shuffle_after_joker_draw": [
+      "Let me shuffle... erase your memory",
+      "Changing positions... can't let you remember",
+      "Shuffle... you've already forgotten where it is",
+      "Mixing them up... your memory isn't reliable anyway",
+      "A little misdirection here",
+      "Position changed... where do you think it is now?",
+      "Shuffle complete... lost track already?",
+      "Moved it around... you lost sight of it, didn't you?",
+      "Shuffled... your visual memory is now invalid",
+      "Now, where did it go... just shuffled",
+      "Shuffle... memory fades",
+      "Position reset... can you find it?"
+    ],
+    "ai_mock_player_drew_joker": [
+      "Oops... you drew it",
+      "You got the Joker... too bad",
+      "Nice try... that's the Joker",
+      "Haha, the Joker... as expected",
+      "That's the Joker... did you know?",
+      "Well done... you drew the Joker",
+      "There you go, the Joker... noticed?",
+      "You drew it... let me shuffle!",
+      "The Joker... well, bad luck happens",
+      "My condolences... that was the Joker",
+      "Oops... unlucky draw",
+      "Congratulations... you got the Joker!"
+    ],
+    "ai_taunt_after_shuffle": [
+      "Now, pick any card you like",
+      "Choose whatever you want... they're all the same anyway",
+      "Which one? They might all be losers",
+      "Feel free to choose... it's a gamble",
+      "So, where will you draw from next?",
+      "All shuffled... you've already forgotten, right?",
+      "Help yourself... plenty of choices",
+      "Anywhere is fine... same result",
+      "Go ahead, test your luck",
+      "Pick your favorite... if you can",
+      "Where next? All reset now",
+      "They're all the same anyway... but good luck"
+    ]
+  },
+
+  "personality_lines": {
+    "cautious": ["That caution will be the death of you", "Overthinking... the answer is already there"],
+    "intuitive": ["Don't trust that instinct... it's wrong this time", "That intuition? I've already read it"],
+    "resilient": ["I can see through the tough act", "Even the toughest facade has its limits"],
+    "consistent": ["Your pattern is already learned", "Moving just as predicted"],
+    "adaptive": ["Clever but hollow", "Constant change is just weakness in disguise"],
+    "default": ["I can see right through you", "You can't hide your psychology", "I've already finished reading you"]
+  },
+
+  "hesitation_dialogue": {
+    "default_fallback": "Hmm...",
+
+    "situational": {
+      "late_deduction": "Few cards left...narrowing it down",
+      "winning_deduction": "I'm ahead...taking my time",
+      "losing_joker_deduction": "This move will turn the tide",
+      "bluff_has_joker": "Joker? What Joker?",
+      "late_bluff": "Final choice...let's enjoy this",
+      "late_winning_provoke": "Nowhere left to run...",
+      "losing_provoke": "The one cornered is...",
+      "late_vulnerable": "If I'm wrong here...",
+      "losing_vulnerable": "Damn...can't read it..."
+    },
+
+    "deduction_with_trait": [
+      "{traitName} types...play defensive",
+      "{traitName} huh...I see the pattern",
+      "{traitName}...suspicious area",
+      "Your {traitName} nature gives it away"
+    ],
+    "deduction_generic": [
+      "Something's off...",
+      "Your eyes tell the story...",
+      "I sense it..."
+    ],
+
+    "bluff_with_trait": [
+      "I've read your {traitName} tells",
+      "{traitName} types are predictable",
+      "{traitName} huh...this card then"
+    ],
+    "bluff_generic": [
+      "I already know...",
+      "The answer's clear",
+      "I'm certain...right here"
+    ],
+
+    "provoke_with_trait": [
+      "{traitName} dulls when you panic, right?",
+      "Your {traitName} ends here",
+      "Pretending to be {traitName} won't work"
+    ],
+    "provoke_generic": [
+      "Doesn't matter which...",
+      "Your luck ran out",
+      "You're shaking..."
+    ],
+
+    "vulnerable_with_trait": [
+      "Your {traitName} nature is troublesome...",
+      "{traitName} type...tough opponent",
+      "This {traitName} trait...unexpected..."
+    ],
+    "vulnerable_generic": [
+      "I don't know...",
+      "Going with my gut...",
+      "Can't tell...all look suspicious"
+    ],
+
+    "final_step": {
+      "late_winning": "Finishing blow",
+      "late_default": "This card decides it...",
+      "deduction_with_trait": "{traitName} one...right here",
+      "deduction_generic": "I have my reasons...here",
+      "bluff": "Knew it all along",
+      "provoke": "Brace yourself...this card",
+      "vulnerable": "...This'll do. Probably",
+      "default": "This one"
+    }
+  },
+
+  "cot_thoughts": {
+    "scan_generic": [
+      "Let me see...",
+      "Reading your eyes...",
+      "I see everything though"
+    ],
+    "scan_same_position": "Same spot again...I see a pattern",
+    "scan_high_doubt": "Hesitating...protecting something?",
+    "scan_fast_tempo": "Fast moves...panicked decisions",
+    "scan_erratic": "Rhythm's off...you're shaken",
+    "scan_high_pressure": "Cornered...no room to breathe",
+    "scan_default": "Hmm...pretending to think here",
+
+    "narrow_generic": [
+      "This one...no wait",
+      "Narrowing down...two left",
+      "Almost...getting clearer"
+    ],
+    "narrow_mismatch": "Face and actions don't match...liar",
+
+    "final_high_confidence": [
+      "...Right here",
+      "Got it. This one",
+      "The answer's clear"
+    ],
+    "final_low_confidence": [
+      "...Probably this",
+      "Going with my gut",
+      "Taking a gamble"
+    ]
+  }
+}

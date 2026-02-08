@@ -1,0 +1,107 @@
+# Unity generated files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# Unity3D generated meta files
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Unity3D generated file on crash reports
+sysinfo.txt
+
+# Builds
+*.apk
+*.unitypackage
+*.aab
+
+# Crashlytics generated file
+crashlytics-build.properties
+
+# Packed Addressables
+[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# Temporary auto-generated Android Assets
+[Aa]ssets/[Ss]treamingAssets/aa.meta
+[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Visual Studio / MonoDevelop / Rider
+.vs/
+.idea/
+[Ee]xported[Oo]bj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Development tools
+*.log
+*.temp
+
+# Unity Package Manager
+[Aa]ssets/Editor/[Uu]nity[Pp]ackage[Mm]anager/
+
+# Unity Asset Store Tools
+[Aa]ssets/AssetStoreTools*
+
+# Vuforia
+[Aa]ssets/Vuforia/
+
+# Gizmos
+[Aa]ssets/Gizmos/
+
+# TextMeshPro
+[Aa]ssets/TextMesh*Pro/
+
+# Firebase
+[Aa]ssets/Firebase/
+[Aa]ssets/Plugins/Android/firebase-*
+google-services.json
+GoogleService-Info.plist
+
+# Fmod
+[Aa]ssets/Plugins/FMOD/
+[Ff]MODAudio/
+
+# Cinemachine Timeline cache
+[Aa]ssets/Timeline.meta
+[Aa]ssets/Timeline.playable
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+*.egg-info/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.git_backup_*

@@ -1,0 +1,17 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "TVHead.moc3",
+		"Textures": [
+			"TVHead.2048/texture_00.png"
+		],
+		"DisplayInfo": "TVHead.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	]
+}
